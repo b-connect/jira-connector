@@ -50,6 +50,7 @@ var project = require('./api/project');
 var projectCategory = require('./api/projectCategory');
 var user = require('./api/user');
 var workflowScheme = require('./api/workflowScheme');
+var tempo = require('./api/temp');
 
 /**
  * Represents a client for the Jira REST API
@@ -204,6 +205,7 @@ var JiraClient = module.exports = function (config) {
     this.projectCategory = new projectCategory(this);
     this.user = new user(this);
     this.workflowScheme = new workflowScheme(this);
+    this.tempo = new tempo(this);
 };
 
 (function () {
