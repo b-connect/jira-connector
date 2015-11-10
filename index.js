@@ -50,7 +50,7 @@ var project = require('./api/project');
 var projectCategory = require('./api/projectCategory');
 var user = require('./api/user');
 var workflowScheme = require('./api/workflowScheme');
-var tempo = require('./api/temp');
+var tempo = require('./api/tempo');
 
 /**
  * Represents a client for the Jira REST API
